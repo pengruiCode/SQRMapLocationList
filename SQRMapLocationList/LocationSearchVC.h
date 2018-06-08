@@ -6,9 +6,9 @@
 //  Copyright © 2017年 PR. All rights reserved.
 //
 
-#import "LKBaseTableViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface LocationSearchVC : LKBaseTableViewController
+@interface LocationSearchVC : UIViewController
 
 @property (nonatomic,copy) NSString *mapKey;
 

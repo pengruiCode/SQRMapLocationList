@@ -16,11 +16,12 @@
 
 static NSString *cellId = @"cellId";
 
-@interface LocationSearchVC () <AMapSearchDelegate,UISearchBarDelegate>
+@interface LocationSearchVC () <AMapSearchDelegate,UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong) UISearchBar *searchBar;
 @property (nonatomic,strong) AMapSearchAPI *search;
 @property (nonatomic,assign) BOOL isShowToastBool;
+@property (nonatomic,strong) UITableView *tableView;
 
 @end
 
@@ -42,8 +43,20 @@ static NSString *cellId = @"cellId";
     [AMapServices sharedServices].apiKey = _mapKey;
     self.search = [[AMapSearchAPI alloc]init];
     self.search.delegate = self;
+    
+    [self.view addSubview:self.tableView];
 }
 
+- (UITableView *)tableView {
+    if (_tableView) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+        _tableView.tableFooterView = [UIView new];
+        _tableView.backgroundColor = [UIColor whiteColor];
+    }
+    return _tableView;
+}
 
 #pragma mark - UISearchBar delegate 监听者搜索框中的值的变化
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
@@ -96,38 +109,38 @@ static NSString *cellId = @"cellId";
 
 #pragma mark - LKBaseTableView Action && Datasource
 
--(NSInteger)LK_numberOfSections {
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.dataArray.count;
 }
 
-- (NSInteger)LK_numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 1;
 }
 
-- (CGFloat)LK_cellheightAtIndexPath:(NSIndexPath *)indexPath {
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 50;
 }
 
-- (CGFloat)LK_sectionHeaderHeightAtSection:(NSInteger)section {
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return 5;
 }
 
-- (LKBaseTableViewCell *)LK_cellAtIndexPath:(NSIndexPath *)indexPath {
-    LKBaseTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:cellId];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:cellId];
     if (!cell) {
-        cell = [[LKBaseTableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellId];
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellId];
     }
     
     AMapPOI *poi = self.dataArray[indexPath.section];
     cell.textLabel.text = poi.name;
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ %@ %@", poi.province ? poi.province : @"",
-                                                                        poi.city ? poi.city : @"",
-                                                                        poi.address ? poi.address : @""];
+                                 poi.city ? poi.city : @"",
+                                 poi.address ? poi.address : @""];
     return cell;
 }
 
-
-- (void)LK_didSelectCellAtIndexPath:(NSIndexPath *)indexPath cell:(LKBaseTableViewCell *)cell {
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.view endEditing:YES];
     for (UIViewController *vc in self.navigationController.viewControllers) {
         if ([vc isKindOfClass:[GDLocationViewController class]]) {
@@ -137,6 +150,8 @@ static NSString *cellId = @"cellId";
         }
     }
 }
+
+
 
 - (void)viewWillDisappear:(BOOL)animated {
     [_searchBar removeFromSuperview];

@@ -27,14 +27,6 @@
 		9AD8A31E20C931BD00156E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD8A31D20C931BD00156E1B /* Foundation.framework */; };
 		9AD8A32B20CA5A6000156E1B /* LKCommonNoNetworkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A32720CA5A6000156E1B /* LKCommonNoNetworkingView.m */; };
 		9AD8A32C20CA5A6000156E1B /* LKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A32820CA5A6000156E1B /* LKBaseViewController.m */; };
-		9AD8A33F20CA5BAC00156E1B /* LKBaseTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A33020CA5BAC00156E1B /* LKBaseTableHeaderFooterView.m */; };
-		9AD8A34020CA5BAC00156E1B /* LKBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A33220CA5BAC00156E1B /* LKBaseTableView.m */; };
-		9AD8A34120CA5BAC00156E1B /* LKBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A33420CA5BAC00156E1B /* LKBaseTableViewCell.m */; };
-		9AD8A34220CA5BAC00156E1B /* LKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A33620CA5BAC00156E1B /* LKBaseTableViewController.m */; };
-		9AD8A34320CA5BAC00156E1B /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AD8A33820CA5BAC00156E1B /* refresh@2x.png */; };
-		9AD8A34420CA5BAC00156E1B /* refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AD8A33920CA5BAC00156E1B /* refresh@3x.png */; };
-		9AD8A34520CA5BAC00156E1B /* LKRefreshUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A33C20CA5BAC00156E1B /* LKRefreshUtil.m */; };
-		9AD8A34620CA5BAC00156E1B /* LKScrollViewRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A33E20CA5BAC00156E1B /* LKScrollViewRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,20 +80,6 @@
 		9AD8A32820CA5A6000156E1B /* LKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBaseViewController.m; sourceTree = "<group>"; };
 		9AD8A32920CA5A6000156E1B /* LKCommonNoNetworkingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKCommonNoNetworkingView.h; sourceTree = "<group>"; };
 		9AD8A32A20CA5A6000156E1B /* LKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBaseViewController.h; sourceTree = "<group>"; };
-		9AD8A32F20CA5BAC00156E1B /* LKBaseTableHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBaseTableHeaderFooterView.h; sourceTree = "<group>"; };
-		9AD8A33020CA5BAC00156E1B /* LKBaseTableHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBaseTableHeaderFooterView.m; sourceTree = "<group>"; };
-		9AD8A33120CA5BAC00156E1B /* LKBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBaseTableView.h; sourceTree = "<group>"; };
-		9AD8A33220CA5BAC00156E1B /* LKBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBaseTableView.m; sourceTree = "<group>"; };
-		9AD8A33320CA5BAC00156E1B /* LKBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBaseTableViewCell.h; sourceTree = "<group>"; };
-		9AD8A33420CA5BAC00156E1B /* LKBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBaseTableViewCell.m; sourceTree = "<group>"; };
-		9AD8A33520CA5BAC00156E1B /* LKBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBaseTableViewController.h; sourceTree = "<group>"; };
-		9AD8A33620CA5BAC00156E1B /* LKBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBaseTableViewController.m; sourceTree = "<group>"; };
-		9AD8A33820CA5BAC00156E1B /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
-		9AD8A33920CA5BAC00156E1B /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
-		9AD8A33B20CA5BAC00156E1B /* LKRefreshUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRefreshUtil.h; sourceTree = "<group>"; };
-		9AD8A33C20CA5BAC00156E1B /* LKRefreshUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRefreshUtil.m; sourceTree = "<group>"; };
-		9AD8A33D20CA5BAC00156E1B /* LKScrollViewRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKScrollViewRefresh.h; sourceTree = "<group>"; };
-		9AD8A33E20CA5BAC00156E1B /* LKScrollViewRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKScrollViewRefresh.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +191,6 @@
 				9AD8A32820CA5A6000156E1B /* LKBaseViewController.m */,
 				9AD8A32920CA5A6000156E1B /* LKCommonNoNetworkingView.h */,
 				9AD8A32720CA5A6000156E1B /* LKCommonNoNetworkingView.m */,
-				9AD8A32D20CA5BAC00156E1B /* BaseTableViewController */,
 			);
 			path = SQRMapLocationListExample;
 			sourceTree = "<group>";
@@ -225,51 +202,6 @@
 				9AD8A31B20C931B400156E1B /* UIKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9AD8A32D20CA5BAC00156E1B /* BaseTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				9AD8A32E20CA5BAC00156E1B /* BaseTableView */,
-				9AD8A33520CA5BAC00156E1B /* LKBaseTableViewController.h */,
-				9AD8A33620CA5BAC00156E1B /* LKBaseTableViewController.m */,
-				9AD8A33720CA5BAC00156E1B /* Resource */,
-				9AD8A33A20CA5BAC00156E1B /* Util */,
-			);
-			path = BaseTableViewController;
-			sourceTree = "<group>";
-		};
-		9AD8A32E20CA5BAC00156E1B /* BaseTableView */ = {
-			isa = PBXGroup;
-			children = (
-				9AD8A32F20CA5BAC00156E1B /* LKBaseTableHeaderFooterView.h */,
-				9AD8A33020CA5BAC00156E1B /* LKBaseTableHeaderFooterView.m */,
-				9AD8A33120CA5BAC00156E1B /* LKBaseTableView.h */,
-				9AD8A33220CA5BAC00156E1B /* LKBaseTableView.m */,
-				9AD8A33320CA5BAC00156E1B /* LKBaseTableViewCell.h */,
-				9AD8A33420CA5BAC00156E1B /* LKBaseTableViewCell.m */,
-			);
-			path = BaseTableView;
-			sourceTree = "<group>";
-		};
-		9AD8A33720CA5BAC00156E1B /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				9AD8A33820CA5BAC00156E1B /* refresh@2x.png */,
-				9AD8A33920CA5BAC00156E1B /* refresh@3x.png */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		9AD8A33A20CA5BAC00156E1B /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				9AD8A33B20CA5BAC00156E1B /* LKRefreshUtil.h */,
-				9AD8A33C20CA5BAC00156E1B /* LKRefreshUtil.m */,
-				9AD8A33D20CA5BAC00156E1B /* LKScrollViewRefresh.h */,
-				9AD8A33E20CA5BAC00156E1B /* LKScrollViewRefresh.m */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,10 +309,8 @@
 			files = (
 				9AD8A31120C9307000156E1B /* ic_search_white@2x.png in Resources */,
 				9AD8A31520C9307000156E1B /* LaunchScreen.storyboard in Resources */,
-				9AD8A34320CA5BAC00156E1B /* refresh@2x.png in Resources */,
 				9AD8A30D20C9307000156E1B /* SQRLocationViewController.xib in Resources */,
 				9AD8A31420C9307000156E1B /* Assets.xcassets in Resources */,
-				9AD8A34420CA5BAC00156E1B /* refresh@3x.png in Resources */,
 				9AD8A31620C9307000156E1B /* Main.storyboard in Resources */,
 				9AD8A31720C9307000156E1B /* Info.plist in Resources */,
 				9AD8A31220C9307000156E1B /* ic_search_white@3x.png in Resources */,
@@ -408,15 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AD8A34520CA5BAC00156E1B /* LKRefreshUtil.m in Sources */,
-				9AD8A34020CA5BAC00156E1B /* LKBaseTableView.m in Sources */,
-				9AD8A34120CA5BAC00156E1B /* LKBaseTableViewCell.m in Sources */,
 				9AD8A30C20C9307000156E1B /* SQRLocationViewController.m in Sources */,
 				9AD8A30F20C9307000156E1B /* MANaviAnnotationView.m in Sources */,
-				9AD8A34620CA5BAC00156E1B /* LKScrollViewRefresh.m in Sources */,
 				9AD8A31020C9307000156E1B /* ReGeocodeAnnotation.m in Sources */,
-				9AD8A33F20CA5BAC00156E1B /* LKBaseTableHeaderFooterView.m in Sources */,
-				9AD8A34220CA5BAC00156E1B /* LKBaseTableViewController.m in Sources */,
 				9AD8A31920C9307000156E1B /* ViewController.m in Sources */,
 				9AD8A31320C9307000156E1B /* AppDelegate.m in Sources */,
 				9AD8A32B20CA5A6000156E1B /* LKCommonNoNetworkingView.m in Sources */,
