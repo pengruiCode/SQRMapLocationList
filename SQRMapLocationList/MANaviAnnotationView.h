@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <MAMapKit/MAMapKit.h>
-#import <CoreLocation/CLLocation.h>
+#import "SQRMapLocationList.h"
 
 @interface NaviButton : UIButton
 

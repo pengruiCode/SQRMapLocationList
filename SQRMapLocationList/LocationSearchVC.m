@@ -7,12 +7,7 @@
 //
 
 #import "LocationSearchVC.h"
-#import "SQRLocationViewController.h"
-#import <MAMapKit/MAMapKit.h>
-#import <MapKit/MapKit.h>
-#import <AMapSearchKit/AMapSearchAPI.h>
-#import <AMapFoundationKit/AMapFoundationKit.h>
-#import <AMapLocationKit/AMapLocationKit.h>
+#import "SQRMapLocationList.h"
 
 static NSString *cellId = @"cellId";
 
