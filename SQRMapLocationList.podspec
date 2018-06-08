@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/pengruiCode/SQRMapLocationList.git', :tag => s.version}
   s.platform 	 = :ios, "8.0"
   s.source_files = "SQRMapLocationList/**/*.{h,m}"
-  s.public_header_files = 'SQRMapLocationList/SQRMapLocationList.h'
+ 
   s.resource     = 'SQRMapLocationList/Resource/*.png'
   s.requires_arc = true
   s.description  = <<-DESC
