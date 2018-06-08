@@ -74,7 +74,6 @@
 		9AD8A30B20C9307000156E1B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AD8A31B20C931B400156E1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9AD8A31D20C931BD00156E1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9AD8A31F20CA13C800156E1B /* SQRMapLocationList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQRMapLocationList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +146,6 @@
 		9AD8A2F320C9307000156E1B /* SQRMapLocationList */ = {
 			isa = PBXGroup;
 			children = (
-				9AD8A31F20CA13C800156E1B /* SQRMapLocationList.h */,
 				9AD8A2F420C9307000156E1B /* SQRLocationViewController.h */,
 				9AD8A2F520C9307000156E1B /* SQRLocationViewController.m */,
 				9AD8A2F620C9307000156E1B /* SQRLocationViewController.xib */,
