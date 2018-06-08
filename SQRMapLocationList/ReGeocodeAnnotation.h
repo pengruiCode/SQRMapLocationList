@@ -6,7 +6,9 @@
 //  Copyright (c) 2018年 PR. All rights reserved.
 //
 
-#import "SQRMapLocationList.h"
+#import <MAMapKit/MAMapKit.h>
+#import <AMapSearchKit/AMapCommonObj.h>
+#import <Foundation/Foundation.h>
 
 @interface ReGeocodeAnnotation : NSObject<MAAnnotation>
 

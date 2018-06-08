@@ -2,8 +2,8 @@
 //  LocationSearchVC.h
 //  CommunityPeople
 //
-//  Created by PR on 18/6/6.
-//  Copyright (c) 2018年 PR. All rights reserved.
+//  Created by macMini on 2017/8/10.
+//  Copyright © 2017年 PR. All rights reserved.
 //
 
 #import "LKBaseTableViewController.h"

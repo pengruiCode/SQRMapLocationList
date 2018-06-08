@@ -7,7 +7,9 @@
 //
 
 #import "SQRLocationViewController.h"
-#import "SQRMapLocationList.h"
+#import "ReGeocodeAnnotation.h"
+#import "MANaviAnnotationView.h"
+#import "LocationSearchVC.h"
 
 #define RightCallOutTag 1
 #define LeftCallOutTag 2

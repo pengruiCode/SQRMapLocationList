@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SQRMapLocationList.h"
+#import <MAMapKit/MAMapKit.h>
+#import <MapKit/MapKit.h>
+#import <AMapSearchKit/AMapSearchAPI.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
 
 @interface SQRLocationViewController :LKBaseViewController
 
