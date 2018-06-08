@@ -25,6 +25,8 @@
 		9AD8A31920C9307000156E1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A30B20C9307000156E1B /* ViewController.m */; };
 		9AD8A31C20C931B400156E1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD8A31B20C931B400156E1B /* UIKit.framework */; };
 		9AD8A31E20C931BD00156E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD8A31D20C931BD00156E1B /* Foundation.framework */; };
+		9AD8A32520CA4F3A00156E1B /* LKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A32220CA4F3A00156E1B /* LKBaseViewController.m */; };
+		9AD8A32620CA4F3A00156E1B /* LKCommonNoNetworkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A32420CA4F3A00156E1B /* LKCommonNoNetworkingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,10 @@
 		9AD8A30B20C9307000156E1B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AD8A31B20C931B400156E1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9AD8A31D20C931BD00156E1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AD8A32120CA4F3A00156E1B /* LKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBaseViewController.h; sourceTree = "<group>"; };
+		9AD8A32220CA4F3A00156E1B /* LKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBaseViewController.m; sourceTree = "<group>"; };
+		9AD8A32320CA4F3A00156E1B /* LKCommonNoNetworkingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKCommonNoNetworkingView.h; sourceTree = "<group>"; };
+		9AD8A32420CA4F3A00156E1B /* LKCommonNoNetworkingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKCommonNoNetworkingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +187,7 @@
 				9AD8A30920C9307000156E1B /* main.m */,
 				9AD8A30A20C9307000156E1B /* ViewController.h */,
 				9AD8A30B20C9307000156E1B /* ViewController.m */,
+				9AD8A32020CA4F3A00156E1B /* BaseViewController */,
 			);
 			path = SQRMapLocationListExample;
 			sourceTree = "<group>";
@@ -192,6 +199,17 @@
 				9AD8A31B20C931B400156E1B /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD8A32020CA4F3A00156E1B /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9AD8A32120CA4F3A00156E1B /* LKBaseViewController.h */,
+				9AD8A32220CA4F3A00156E1B /* LKBaseViewController.m */,
+				9AD8A32320CA4F3A00156E1B /* LKCommonNoNetworkingView.h */,
+				9AD8A32420CA4F3A00156E1B /* LKCommonNoNetworkingView.m */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +348,8 @@
 			files = (
 				9AD8A30C20C9307000156E1B /* SQRLocationViewController.m in Sources */,
 				9AD8A30F20C9307000156E1B /* MANaviAnnotationView.m in Sources */,
+				9AD8A32520CA4F3A00156E1B /* LKBaseViewController.m in Sources */,
+				9AD8A32620CA4F3A00156E1B /* LKCommonNoNetworkingView.m in Sources */,
 				9AD8A31020C9307000156E1B /* ReGeocodeAnnotation.m in Sources */,
 				9AD8A31920C9307000156E1B /* ViewController.m in Sources */,
 				9AD8A31320C9307000156E1B /* AppDelegate.m in Sources */,
