@@ -14,8 +14,6 @@
 #import <AMapFoundationKit/AMapFoundationKit.h>
 #import <AMapLocationKit/AMapLocationKit.h>
 
-@class LKBaseViewController;
-
 @interface SQRLocationViewController :LKBaseViewController
 
 @property (nonatomic,strong) void (^returnChickLocationBlock)(NSMutableDictionary *dict);
