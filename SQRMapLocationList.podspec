@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRMapLocationList"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary  	 = '地图组件'
   s.homepage     = "https://github.com/pengruiCode/SQRMapLocationList.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -24,6 +24,10 @@ Pod::Spec.new do |s|
 
   s.subspec "AMapLocation-NO-IDFA" do |ss|
      ss.dependency "AMapLocation-NO-IDFA"
+  end
+
+  s.subspec "SQRBaseClassProject" do |ss|
+     ss.dependency "SQRBaseClassProject"
   end
 
  end
