@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRMapLocationList"
-  s.version      = "0.0.9"
+  s.version      = "0.1.1"
   s.summary  	 = '地图组件'
   s.homepage     = "https://github.com/pengruiCode/SQRMapLocationList.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -14,6 +14,9 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 			显示地图，并定位出附近位置列表
                    DESC
+
+  s.dependency 'SQRBaseClassProject','0.0.4'
+
   s.subspec "AMap2DMap-NO-IDFA" do |ss|
      ss.dependency "AMap2DMap-NO-IDFA"
   end
@@ -24,10 +27,6 @@ Pod::Spec.new do |s|
 
   s.subspec "AMapLocation-NO-IDFA" do |ss|
      ss.dependency "AMapLocation-NO-IDFA"
-  end
-
-  s.subspec "SQRBaseClassProject" do |ss|
-     ss.dependency "SQRBaseClassProject"
   end
 
  end
