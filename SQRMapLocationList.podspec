@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/pengruiCode/SQRMapLocationList.git', :tag => s.version}
   s.platform 	 = :ios, "8.0"
   s.source_files = "SQRMapLocationList/**/*.{h,m}"
-  s.resource     = 'SQRMapLocationList/Map_Resource/*.png'
+  s.resource     = 'SQRMapLocationList/Resource/*.png'
   s.requires_arc = true
   s.description  = <<-DESC
 			显示地图，并定位出附近位置列表
@@ -27,6 +27,10 @@ Pod::Spec.new do |s|
 
   s.subspec "AMapLocation-NO-IDFA" do |ss|
      ss.dependency "AMapLocation-NO-IDFA"
+  end
+
+  s.subspec "SQRBaseClassProject" do |ss|
+     ss.dependency "SQRBaseClassProject"
   end
 
  end
