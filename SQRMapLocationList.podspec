@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 			显示地图，并定位出附近位置列表
                    DESC
 
-  s.dependency 'SQRBaseClassProject','0.0.4'
+  s.dependency 'SQRBaseClassProject'
 
   s.subspec "AMap2DMap-NO-IDFA" do |ss|
      ss.dependency "AMap2DMap-NO-IDFA"
