@@ -236,7 +236,7 @@
     cell.textLabel.textColor=[UIColor blackColor];
     
     if(indexPath.section==_currentIndex){
-        cell.textLabel.textColor = DEF_COLOR_Master;
+        cell.textLabel.textColor = [UIColor orangeColor];
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     }
     else{
@@ -261,7 +261,7 @@
     UITableViewCell *newCell = [tableView cellForRowAtIndexPath:indexPath];
     if (newCell.accessoryType == UITableViewCellAccessoryNone) {
         newCell.accessoryType = UITableViewCellAccessoryCheckmark;
-        newCell.textLabel.textColor = DEF_COLOR_Master;
+        newCell.textLabel.textColor = [UIColor orangeColor];
     }
     UITableViewCell *oldCell = [tableView cellForRowAtIndexPath:oldIndexPath];
     if (oldCell.accessoryType == UITableViewCellAccessoryCheckmark) {
