@@ -31,4 +31,8 @@ Pod::Spec.new do |s|
      ss.dependency "SQRBaseClassProject"
   end
 
+  s.subspec "SQRBaseDefineWithFunction" do |ss|
+     ss.dependency "SQRBaseDefineWithFunction"
+  end
+
  end
