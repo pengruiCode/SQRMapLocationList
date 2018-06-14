@@ -7,6 +7,7 @@
 //
 
 #import "LocationSearchVC.h"
+#import "SQRBaseDefine.h"
 #import "SQRLocationViewController.h"
 #import <MAMapKit/MAMapKit.h>
 #import <MapKit/MapKit.h>
@@ -20,6 +21,7 @@ static NSString *cellId = @"cellId";
 
 @property (nonatomic,strong) UISearchBar *searchBar;
 @property (nonatomic,strong) AMapSearchAPI *search;
+@property (nonatomic,strong) NSMutableArray *dataArray;
 @property (nonatomic,assign) BOOL isShowToastBool;
 @property (nonatomic,strong) UITableView *tableView;
 

@@ -10,6 +10,7 @@
 #import "ReGeocodeAnnotation.h"
 #import "MANaviAnnotationView.h"
 #import "LocationSearchVC.h"
+#import "SQRBaseDefine.h"
 
 #define RightCallOutTag 1
 #define LeftCallOutTag 2
