@@ -145,8 +145,8 @@ static NSString *cellId = @"cellId";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.view endEditing:YES];
     for (UIViewController *vc in self.navigationController.viewControllers) {
-        if ([vc isKindOfClass:[GDLocationViewController class]]) {
-            GDLocationViewController *gd = (GDLocationViewController *)vc;
+        if ([vc isKindOfClass:[SQRLocationViewController class]]) {
+            SQRLocationViewController *gd = (SQRLocationViewController *)vc;
             gd.poi = self.dataArray[indexPath.section];
             [self.navigationController popToViewController:gd animated:YES];
         }

@@ -1,5 +1,5 @@
 //
-//  GDLocationViewController.h
+//  SQRLocationViewController.h
 //  Merchant
 //  地图定位显示附近位置列表
 //  Created by PR on 18/6/6.
