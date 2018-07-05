@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQRMapLocationList"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary  	 = '地图组件'
   s.homepage     = "https://github.com/pengruiCode/SQRMapLocationList.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }

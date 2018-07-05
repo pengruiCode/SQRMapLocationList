@@ -45,12 +45,12 @@ static NSString *cellId = @"cellId";
     [AMapServices sharedServices].apiKey = _mapKey;
     self.search = [[AMapSearchAPI alloc]init];
     self.search.delegate = self;
-    
+    self.dataArray = [NSMutableArray array];
     [self.view addSubview:self.tableView];
 }
 
 - (UITableView *)tableView {
-    if (_tableView) {
+    if (!_tableView) {
         _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
         _tableView.dataSource = self;
         _tableView.delegate = self;
@@ -63,7 +63,6 @@ static NSString *cellId = @"cellId";
 #pragma mark - UISearchBar delegate 监听者搜索框中的值的变化
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     [self.view endEditing:YES];
-    
     if (searchBar.text.length > 0) {
         [self searchPoiByKeyword:searchBar.text];
     }
