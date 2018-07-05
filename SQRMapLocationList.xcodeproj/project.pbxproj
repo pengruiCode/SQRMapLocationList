@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A1AC7EE20EDF5F800482B2B /* ic_loca_now.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7E920EDF5F700482B2B /* ic_loca_now.png */; };
+		9A1AC7EF20EDF5F800482B2B /* ic_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7EA20EDF5F700482B2B /* ic_back@2x.png */; };
+		9A1AC7F020EDF5F800482B2B /* ic_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7EB20EDF5F800482B2B /* ic_back@3x.png */; };
+		9A1AC7F120EDF5F800482B2B /* ic_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7EC20EDF5F800482B2B /* ic_location.png */; };
+		9A1AC7F220EDF5F800482B2B /* ic_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A1AC7ED20EDF5F800482B2B /* ic_back.png */; };
 		9A2D68C420D11DC300C986E3 /* ic_search_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D68C220D11DC300C986E3 /* ic_search_white@2x.png */; };
 		9A2D68C520D11DC300C986E3 /* ic_search_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2D68C320D11DC300C986E3 /* ic_search_white@3x.png */; };
 		9AD8A2DB20C92A4A00156E1B /* SQRMapLocationListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8A2DA20C92A4A00156E1B /* SQRMapLocationListTests.m */; };
@@ -45,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A1AC7E920EDF5F700482B2B /* ic_loca_now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_loca_now.png; sourceTree = "<group>"; };
+		9A1AC7EA20EDF5F700482B2B /* ic_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back@2x.png"; sourceTree = "<group>"; };
+		9A1AC7EB20EDF5F800482B2B /* ic_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back@3x.png"; sourceTree = "<group>"; };
+		9A1AC7EC20EDF5F800482B2B /* ic_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_location.png; sourceTree = "<group>"; };
+		9A1AC7ED20EDF5F800482B2B /* ic_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back.png; sourceTree = "<group>"; };
 		9A2D68C220D11DC300C986E3 /* ic_search_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_white@2x.png"; sourceTree = "<group>"; };
 		9A2D68C320D11DC300C986E3 /* ic_search_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_white@3x.png"; sourceTree = "<group>"; };
 		9AD8A2BE20C92A3F00156E1B /* SQRMapLocationList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQRMapLocationList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +116,11 @@
 		9A2D68C120D11DC300C986E3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9A1AC7ED20EDF5F800482B2B /* ic_back.png */,
+				9A1AC7EA20EDF5F700482B2B /* ic_back@2x.png */,
+				9A1AC7EB20EDF5F800482B2B /* ic_back@3x.png */,
+				9A1AC7E920EDF5F700482B2B /* ic_loca_now.png */,
+				9A1AC7EC20EDF5F800482B2B /* ic_location.png */,
 				9A2D68C220D11DC300C986E3 /* ic_search_white@2x.png */,
 				9A2D68C320D11DC300C986E3 /* ic_search_white@3x.png */,
 			);
@@ -297,13 +312,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1AC7EF20EDF5F800482B2B /* ic_back@2x.png in Resources */,
 				9AD8A31520C9307000156E1B /* LaunchScreen.storyboard in Resources */,
 				9AD8A30D20C9307000156E1B /* SQRLocationViewController.xib in Resources */,
 				9AD8A31420C9307000156E1B /* Assets.xcassets in Resources */,
 				9A2D68C520D11DC300C986E3 /* ic_search_white@3x.png in Resources */,
 				9AD8A31620C9307000156E1B /* Main.storyboard in Resources */,
+				9A1AC7F220EDF5F800482B2B /* ic_back.png in Resources */,
 				9A2D68C420D11DC300C986E3 /* ic_search_white@2x.png in Resources */,
 				9AD8A31720C9307000156E1B /* Info.plist in Resources */,
+				9A1AC7F120EDF5F800482B2B /* ic_location.png in Resources */,
+				9A1AC7F020EDF5F800482B2B /* ic_back@3x.png in Resources */,
+				9A1AC7EE20EDF5F800482B2B /* ic_loca_now.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -95,7 +95,7 @@
     if ([view.annotation isKindOfClass:[MAUserLocation class]])
     {
         MAUserLocationRepresentation *pre = [[MAUserLocationRepresentation alloc] init];
-        pre.image = [UIImage imageNamed:@"location.png"];
+        pre.image = [UIImage imageNamed:@"ic_location.png"];
         pre.lineWidth = 3;
         [self.mapView updateUserLocationRepresentation:pre];
         view.calloutOffset = CGPointMake(0, 0);
